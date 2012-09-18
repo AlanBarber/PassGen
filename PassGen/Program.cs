@@ -13,7 +13,7 @@ namespace PassGen
 
             for(int i = 0; i < 10; i++)
             {
-                Console.WriteLine(passwordGen.Generate(8,PasswordGen.PasswordPattern.AlphaNumericExtended, PasswordGen.PasswordCase.Mixed));
+                Console.WriteLine(passwordGen.Generate(PasswordPreset.LudacrisSecure));
             }
 
 
